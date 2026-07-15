@@ -6,7 +6,8 @@
   "scripts": {
     "lint": "eslint .",
     "test": "jest",
-    "test:coverage": "jest --coverage"
+    "test:coverage": "jest --coverage",
+    "build":"docker  build -t day2 ."
   },
   "license": "MIT",
   "devDependencies": {
