@@ -23,3 +23,5 @@ npm run test:integration
 In CI you provide nothing — the workflow at `../.github/workflows/day4-integration.yml`
 starts Postgres and Redis as **service containers**, runs the whole suite across a
 **matrix** of Node versions, and uploads the results as an artifact.
+
+Dummy change
